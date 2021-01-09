@@ -1,0 +1,93 @@
+@media (min-width: 550px) {
+  /* header */
+  .ch-header__logo {
+    margin-left: -5px;
+    width: 26%;
+  }
+  .ch-headertop--mb {
+    margin-bottom: -16px;
+  }
+  .ch-navbar {
+    padding-top: 5px;
+  }
+  .ch-header__btn {
+    background-color: white;
+    border-bottom-color: rgb(99, 172, 252);
+    border-top-color: rgb(99, 172, 252);
+    border-left-color: rgb(99, 172, 252);
+    border-right-color: rgb(99, 172, 252);
+    color: rgb(99, 172, 252);
+    width: 96px;
+    height: 35px;
+    font-size: 12.5px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    margin-right: -10px;
+    padding: 0px;
+  }
+  /* banner */
+  .ch-banner {
+    padding-left: 30px;
+    text-align: left;
+  }
+  .ch-banner--margin {
+    margin-top: -20px;
+  }
+  .ch-banner--margin {
+    margin-right: 800px;
+  }
+  .ch-banner__h1 {
+    text-align: left;
+    padding-left: 25px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 55px;
+  }
+  .ch-banner__h1--mt {
+    margin-top: 80px;
+  }
+  .ch-banner__P {
+    text-align: left;
+  }
+  .ch-banner__P--margin {
+    margin-left: 25.87px;
+    margin-right: 25.87px;
+    margin-bottom: 40px;
+  }
+  .ch-banner__btn {
+    background-color: rgb(99, 172, 252);
+    color: white;
+    width: 140px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    padding: 0px;
+  }
+  .ch-banner__btn--margin {
+    margin-left: 25px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-top: -27px;
+  }
+  .ch-banner__a {
+    color: rgb(99, 172, 252);
+    font-size: 16px;
+    font-weight: 600;
+    /* line-height: 24px; */
+    text-decoration: none;
+    letter-spacing: -1px;
+  }
+  .ch-banner__a--mt {
+    margin-top: -50px;
+    margin-left: 32px;
+  }
+  .ch-banner__img {
+    padding-right: 4px;
+  }
+  .ch-banner__img--width {
+    width: 84%;
+    margin-top: 25px;
+    padding-right: 20px;
+  }
+}
