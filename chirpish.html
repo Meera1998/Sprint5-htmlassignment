@@ -17,6 +17,16 @@
       rel="stylesheet"
     />
     <link href="css/small.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      media="screen and (min-width: 768px)"
+      href="./css/medium.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (min-width: 1024px)"
+      href="./css/large.css"
+    />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500;600;700;800&display=swap"
@@ -76,11 +86,11 @@
     <!-- header -->
     <!-- section 1 -->
     <section>
-      <div class="container-fluid ch-banner ch-banner--margin">
+      <div class="container-fluid ch-banner">
         <div class="row d-flex">
-          <div class="col-12 col-md-9 col-lg-4 order-md-1 order-lg-0">
-            <h1 class="ch-atom-h1 ch-font">
-              Automate <br class="d-none" />
+          <div class="col-12 col-md-9 col-lg-5 order-md-1 order-lg-0">
+            <h1 class="ch-atom-h1 ch-font ch-banner__h1--mt">
+              Automate <br class="d-none d-md-block d-lg-block" />
               <span class="d-md-inline-block"> your customer service. </span>
             </h1>
             <p class="ch-banner__P ch-banner__P--margin">
@@ -100,7 +110,7 @@
             >
           </div>
           <div
-            class="col-12 col-md-12 col-lg-8 order-md-0 orger-lg-1 ch-banner__img text-center"
+            class="col-12 col-md-12 col-lg-7 order-md-0 orger-lg-1 ch-banner__img text-center"
           >
             <img class="ch-banner__img--width" src="./images/section1.png" />
           </div>
@@ -109,7 +119,7 @@
     </section>
     <!-- section 1 -->
     <!-- scetion 2 -->
-    <section class="ch-org-support ch-org-support--margin">
+    <section class="ch-org-support ch-width ch-org-support--margin">
       <img class="ch-atomsec3img1" src="/images/arrow1.png" alt="" />
       <div class="container">
         <div class="row">
@@ -123,11 +133,13 @@
           >
           <h2 class="ch-font text-center ch-molc-review__h2">
             Chirpish is a customer <br />
-            support-as-a-service company helping to grow online brands.
+            support-as-a-service company
+            <br class="d-none d-md-none d-lg-block" />helping to grow online
+            brands.
           </h2>
         </div>
         <div class="row ch-molc-card">
-          <div class="col-6 text-center">
+          <div class="col-6 col-md-3 col-lg-3 text-center">
             <img
               class="ch-molc-card__img"
               src="./images/card1.png"
@@ -137,7 +149,7 @@
 
             <h3 class="ch-font ch-molc-card__text">Phone Support</h3>
           </div>
-          <div class="col-6 text-center">
+          <div class="col-6 col-md-3 col-lg-3 text-center">
             <img
               class="ch-molc-card__img--width1"
               src="./images/card2.png"
@@ -148,7 +160,7 @@
             <h3 class="ch-font ch-molc-card__text">Live chat</h3>
           </div>
 
-          <div class="col-6 text-center">
+          <div class="col-6 col-md-3 col-lg-3 text-center">
             <img
               class="ch-molc-card__img--width2"
               src="./images/card3.png"
@@ -159,7 +171,7 @@
               <h3 class="ch-font ch-molc-card__text">Email Support</h3>
             </div>
           </div>
-          <div class="col-6 text-center">
+          <div class="col-6 col-md-3 c0l-lg-3 text-center">
             <img
               class="ch-molc-card__img--width3"
               src="./images/card4.png"
@@ -183,14 +195,16 @@
             <h2 class="ch-atom-h2 text-center ch-org-howitworks__h2">
               How Chirpish Works
             </h2>
-            <p class="ch-atom-para text-center mb-4">
+            <p class="ch-atom-para text-center ch-atom-para--margin mb-4">
               Month-to-month. No commitments. Scale up or down with your
               business volume.
             </p>
           </div>
         </div>
         <div class="row">
-          <div class="col-12 ch-molc-card-howitworks text-left">
+          <div
+            class="col-12 col-md-12 col-lg-4 ch-molc-card-howitworks ch-molc-card-howitworks--alignl"
+          >
             <img
               class="ch-molc-card-howitworks__img"
               src="./images/card5.png"
@@ -205,7 +219,7 @@
             </p>
           </div>
           <div
-            class="col-12 ch-molc-card-howitworks ch-molc-card-howitworks--right"
+            class="col-12 col-lg-4 ch-molc-card-howitworks ch-molc-card-howitworks--alignr"
           >
             <img
               class="ch-molc-card-howitworks__img ch-molc-card-howitworks__img--width"
@@ -222,7 +236,9 @@
               scaling your business.
             </p>
           </div>
-          <div class="col-12 ch-molc-card-howitworks text-left">
+          <div
+            class="col-12 col-lg-4 ch-molc-card-howitworks ch-molc-card-howitworks--alignl"
+          >
             <img
               class="ch-molc-card-howitworks__img ch-molc-card-howitworks__img--width1"
               src="./images/card7.png"
@@ -241,119 +257,241 @@
     <!-- section3 -->
     <!-- scetion4 -->
     <section>
-      <div class="container-fluid ch-banner ch-banner--margin">
-        <div class="row d-flex">
-          <div class="col-12">
-            <h1 class="ch-atom-h2 ch-font">
+      <div class="container-fluid ch-banner ch-banner__h1--mt">
+        <div class="row d-flex ch-empathetic">
+          <div class="col-12 col-lg-6">
+            <h1 class="ch-atom-h2 ch-atom-h2--empathetic ch-font">
               Empathetic agents.<br />100% US-based.
             </h1>
-            <p class="ch-atom-para ch-atom-para--margin px-3">
+            <p class="ch-atom-para ch-atom-para--marginhire px-3">
               We hire the best domestic agents that test for cognitive ability,
               motivation to do the job, people-centric personality, and customer
               service specific skill tests to become part of our innovating
               team.
             </p>
           </div>
-          <div class="col-12 ch-org-support text-center py-5 my-4">
+          <div class="col-12 col-lg-6 ch-org-support text-center py-5 my-4">
             <img class="ch-trophy" src="./images/trophy.png" />
           </div>
         </div>
       </div>
     </section>
     <!-- section4 -->
+    <!-- section5 -->
+    <section class="d-none d-md-block d-lg-block">
+      <div class="ch-section-container container pt-5">
+          <div class="row pt-lg-5 pb-lg-3">
+              <div class="col-md-6 col-lg-3">
+                  <div class="ch-molc-service-card">
+                      <img src="./images/icon1.png" class="card-img-top ch-icon img-fluid " alt="...">
+                      <div class="">
+                          <h3 class="ch-atom-card-title ch-font pt-3">Reduce <br> Chargebacks</h3>
+                          <p class="ch-molc-card2__para">Select the plan that suits your current ticket volume. You
+                              can change your plan monthly.</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-6 col-lg-3">
+                  <div class="ch-molc-service-card">
+                      <img src="./images/icon2.png" class="card-img-top ch-icon img-fluid" alt="...">
+                      <div class="">
+                          <h3 class="ch-atom-card-title ch-font pt-3">Rapid First-time Response</h3>
+                          <p class="ch-molc-card2__para">Select the plan that suits your current ticket volume. You
+                              can change your plan monthly.</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-6 col-lg-3">
+                  <div class="ch-molc-service-card">
+                      <img src="./images/icon3.png" class="card-img-top ch-icon img-fluid" alt="...">
+                      <div class="">
+                          <h3 class="ch-atom-card-title ch-font pt-3">Higher Conversion Rates</h3>
+                          <p class="ch-molc-card2__para">Select the plan that suits your current ticket volume. You
+                              can change your plan monthly.</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-6 col-lg-3">
+                  <div class="ch-molc-service-card">
+                      <img src="./images/icon4.png" class="card-img-top ch-icon img-fluid " alt="...">
+                      <div class="">
+                          <h3 class="ch-atom-card-title ch-font pt-3">Built Customer Loyalty</h3>
+                          <p class="ch-molc-card2__para">Select the plan that suits your current ticket volume. You
+                              can change your plan monthly.</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="row pt-lg-5 pb-lg-3">
+              <div class="col-md-6 col-lg-3">
+                  <div class="ch-molc-service-card">
+                      <img src="./images/icon5.png" class="card-img-top ch-icon img-fluid" alt="...">
+                      <div class="">
+                          <h3 class="ch-atom-card-title ch-font pt-3">Higher Customer Satisfaction</h3>
+                          <p class="ch-molc-card2__para">Select the plan that suits your current ticket volume. You
+                              can change your plan monthly.</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-6 col-lg-3">
+                  <div class="ch-molc-service-card">
+                      <img src="./images/icon6.png" class="card-img-top ch-icon img-fluid" alt="...">
+                      <div class="">
+                          <h3 class="ch-atom-card-title ch-font pt-3">Higher Customer Satisfaction</h3>
+                          <p class="ch-molc-card2__para">Select the plan that suits your current ticket volume. You
+                              can change your plan monthly.</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-6 col-lg-3">
+                  <div class="ch-molc-service-card">
+                      <img src="./images/icon7.png" class="card-img-top ch-icon img-fluid" alt="...">
+                      <div class="">
+                          <h3 class="ch-atom-card-title ch-font pt-3">Faster Resolution Rates</h3>
+                          <p class="ch-molc-card2__para">Select the plan that suits your current ticket volume. You
+                              can change your plan monthly.</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-6 col-lg-3">
+                  <div class="ch-molc-service-card">
+                      <img src="./images/icon8.png" class="card-img-top ch-icon img-fluid" alt="...">
+                      <div class="">
+                          <h3 class="ch-atom-card-title ch-font pt-3">Create Authentic Social Proof</h3>
+                          <p class="ch-molc-card2__para">Select the plan that suits your current ticket volume. You
+                              can change your plan monthly.</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  <!-- section5 -->
     <!-- section6 -->
     <section>
-      <div class="container-fluid ch-banner ch-banner--margin">
+      <div class="container-fluid ch-banner">
         <div class="row d-flex">
           <div class="col-12 col-md-12 col-lg-12">
-            <h1 class="ch-atom-h2 ch-font px-5">Designed to help you scale.</h1>
-            <p class="ch-atom-para ch-atom-para--margin px-1">
-              Not just here to answer questions or troubleshoot issues. Our
-              agents are inserted in your sales process.
+            <h1 class="ch-atom-h2 ch-atom-h2__center ch-font">
+              Designed to help you scale.
+            </h1>
+            <p class="ch-atom-para ch-atom-para--center px-1">
+              Not just here to answer questions or troubleshoot issues.
+              <br class="d-none d-md-block" />
+              Our agents are inserted in your sales process.
             </p>
           </div>
         </div>
       </div>
     </section>
-    <section class="my-5 px-3">
+    <section class="ch-org-support ch-width ch-org-support--margin">
       <div class="container-fluid">
-        <div class="row ch-org-support py-5">
-          <div class="col-12 col-md-6 col-lg-6 text-center">
-            <h1 class="ch-atom-h2 ch-font px-5">We cover all your channels.</h1>
-            <p class="ch-atom-para ch-atom-para--margin px-3 px-4">
+        <div class="row ch-section">
+          <div class="col-12 col-md-11 col-lg-6 ch-section6 text-center">
+            <h1 class="ch-atom-h2 ch-font">
+              We cover all <br class="d-none d-md-block" />
+              your channels.
+            </h1>
+            <p
+              class="ch-atom-para ch-atom-para--margin ch-atom-para--marginfrom"
+            >
               From live-chat to helping you manage your social media inquiries,
               we’ve got you covered so you can focus on scaling your business.
             </p>
           </div>
-          <div class="col-12">
-            <img class="ch-mail" src="./images/emailbox.png" />
+          <div class="col-12 col-lg-6">
+            <img class="ch-mail d-lg-none" src="./images/emailbox.png" />
+            <img
+              class="ch-mail d-none d-lg-block"
+              src="https://chirpish.co/wp-content/uploads/2020/11/test-d.png"
+            />
           </div>
         </div>
       </div>
     </section>
-    <section class="my-5 px-3">
+    <section
+      class="ch-org-support ch-width ch-org-support--margin ch-section7--pb"
+    >
       <div class="container-fluid">
-        <div class="row ch-org-support py-5">
-          <div class="col-12 col-md-6 col-lg-6 text-center">
-            <h1 class="ch-atom-h2 ch-font px-5">
-              Experts in softwares you use and love.
+        <div class="row d-flex">
+          <div
+            class="col-12 col-md-10 col-lg-6 order-lg-1 ch-section7 text-center"
+          >
+            <h1 class="ch-atom-h2 ch-font">
+              Experts in softwares <br />you use and love.
             </h1>
-            <p class="ch-atom-para ch-atom-para--margin px-3 px-4">
+            <p
+              class="ch-atom-para ch-atom-para--margin ch-atom-para--marginfrom px-3"
+            >
               We train our agents to adapt to a plethora of software's and
               applications to ensure our knowledge and expertise can merge with
               your existing systems.
             </p>
           </div>
-          <div class="col-12">
-            <img class="ch-mail" src="./images/banner1.png" />
+          <div class="col-12 col-lg-6 order-lg-0">
+            <img class="ch-banner1" src="./images/banner1.png" />
           </div>
         </div>
       </div>
     </section>
-    <section class="my-5 px-3">
+    <section class="ch-org-support ch-width ch-org-support--margin">
       <div class="container-fluid">
-        <div class="row ch-org-support py-5">
-          <div class="col-12 col-md-6 col-lg-6 text-center">
-            <h1 class="ch-atom-h2 ch-font px-5">
-              We recruit the best of the best
+        <div class="row ">
+          <div class="col-12 col-md-10 col-lg-6 text-center">
+            <h1 class="ch-atom-h2 ch-font">
+              We recruit the<br />
+              best of the best
             </h1>
-            <p class="ch-atom-para ch-atom-para--margin px-3 px-4">
+            <p
+              class="ch-atom-para ch-atom-para--margin ch-atom-para--marginfrom px-3"
+            >
               Top agents go through rigorous tests like type speed and accuracy,
               reading comprehension, grammar, and spelling. Less than 1% are
               accepted.
             </p>
           </div>
-          <div class="col-12">
-            <img class="ch-mail" src="./images/banner2.png" />
+          <div class="col-12 col-lg-6">
+            <img class="ch-banner2" src="./images/banner2.png" />
           </div>
         </div>
       </div>
     </section>
     <section>
-      <div class="container-fluid ch-banner ch-banner--margin">
+      <div
+        class="container-fluid ch-banner ch-banner--margin ch-banner--marginflex"
+      >
         <div class="row d-flex">
-          <div class="col-12 col-md-12 col-lg-12">
-            <h1 class="ch-atom-h2 ch-font px-5">Flexible Pricing.</h1>
-            <p class="ch-atom-para ch-atom-para--margin px-5">
-              We make it easy to scale up or down when needed.
+          <div class="col-12 col-md-12 col-lg-12 mt-lg-5">
+            <h1 class="ch-atom-h2 ch-flex ch-font text-center">
+              Flexible Pricing.
+            </h1>
+            <p class="ch-atom-para ch-easy text-center">
+              We make it easy to scale up or
+              <br class="d-block d-md-block d-lg-none" />
+              down when needed.
             </p>
           </div>
         </div>
       </div>
     </section>
-    <section class="my-5 px-3">
+    <section
+      class="ch-org-support ch-width ch-org-support--margin ch-org-support--blue pb-0"
+    >
       <div class="container-fluid">
-        <div class="row ch-org-support pt-5 pb-0 ch-org-support--blue">
-          <div class="col-12 col-md-6 col-lg-6 text-center">
-            <h1 class="ch-atom-h2 ch-font px-5 text-white">Ready to scale?</h1>
-            <p class="ch-atom-para ch-atom-para--margin px-3 px-4 text-white">
-              Don’t let those emails pile up. Get in touch to integrate our
-              customer service team today.
+        <div class="row">
+          <div class="col-12 col-md-12 col-lg-12 text-center">
+            <h1 class="ch-atom-h2 ch-font text-white text-center">
+              Ready to scale?
+            </h1>
+            <p class="ch-atom-para ch-dont text-white">
+              Don’t let those emails pile up. Get in <br />touch to integrate
+              our customer<br />
+              service team today.
             </p>
             <button
               class="btn d-block d-md-inline ch-atom-btn ch-banner__btn ch-banner__btn--white"
             >
-              Get started
+              Contact us
             </button>
             <img
               class="ch-birdimg"
@@ -363,11 +501,16 @@
         </div>
       </div>
     </section>
-    <section class="my-5 px-3">
+    <section
+      class="ch-org-support ch-width ch-org-support--margin ch-org-support--border"
+    >
       <div class="container-fluid">
-        <div class="row ch-org-support ch-org-support--border py-5">
-          <div class="col-12 col-md-6 col-lg-6 text-center">
-            <ul class="d-flex justify-content-center pe-5 d-lg-none">
+        <div class="row">
+          <div class="col-12 col-md-12 col-lg-6 text-center">
+            <ul
+              style="list-style-type: none"
+              class="d-flex justify-content-center pe-5 d-lg-none"
+            >
               <li class="ps-3">
                 <img src="./images/icon-facebook.svg" alt="" />
               </li>
@@ -378,25 +521,62 @@
                 <img src="./images/icon-linkedin.svg" alt="" />
               </li>
             </ul>
-            <h1 class="ch-atom-h2 ch-font px-3">Let's keep in touch</h1>
+            <h1 class="ch-atom-h2 ch-font px-3 text-center pt-lg-5">
+              Let's keep in touch
+            </h1>
           </div>
-          <div class="col-12 col-md-6 col-lg-6">
+          <div class="col-12 col-lg-6 text-center pt-lg-5 pt-4">
             <input
-              class="form-control form-control--size ch-textbox text-center mx-4 mt-4"
+              class="form-control form-control--size"
               list="datalistOptions"
               id="exampleDataList"
               placeholder="Your email Please"
             />
-            <button
-              class="btn d-block d-md-inline ch-atom-btn ch-atom-btn--border ch-banner__btn ch-banner__btn--font ch-banner__btn--white"
-            >
-              Submit
-            </button>
+            <div class="ps-3 pt-3 d-lg-inline-block pt-4 pb-5">
+              <button
+                class="btn ch-molc-banner__button ch-molc-banner__button--white d-md-inline-block d-lg-inline-block"
+                type="submit"
+              >
+                Submit
+              </button>
+            </div>
           </div>
         </div>
       </div>
     </section>
     <!-- section6 -->
+    <!-- footer -->
+    <footer class="ch-org-footer pt-5">
+      <div class="container-fluid">
+          <div class="row d-flex">
+              <div class="col-12 col-md-12 col-lg-7 order-lg-1 ps-lg-5">
+                  <ul class="d-flex ch-molc-footer-list ch-molc-footer-list--pl mt-lg-5">
+                      <li class="ch-molc-footer-list__item">Blog</li>
+                      <li class="ch-molc-footer-list__item">Contacts</li>
+                      <li class="ch-molc-footer-list__item">Help Center</li>
+                      <li class="ch-molc-footer-list__item">We're Hiring ✨</li>
+                          <li class=" ch-molc-footer-list__item d-none d-md-none d-block"><img src="./images/icon-facebook.svg" alt=""></li>
+                          <li class=" ch-molc-footer-list__item d-none d-md-none d-block"><img src="./images/icon-instagram.svg" alt=""></li>
+                          <li class=" ch-molc-footer-list__item d-none d-md-none d-block"><img src="./images/icon-linkedin.svg" alt=""></li>
+                          <li class="ch-molc-footer-list__item d-none d-md-none d-lg-block">Site by Bureaux</li>
+                      </ul>
+                  </ul>
+              </div>
+              <div class="container-fluid d-lg-none">
+                  <hr class="text-primary mt-1 mb-3">
+              </div>
+              <div class="col-12 col-md-12 col-lg-5 order-lg-0 ">
+                  <ul class="d-flex justify-content-md-center ch-molc-footer-list mt-lg-5 ">
+                      <li class="ch-molc-footer-list__item2">© Chirpish LLC, 2020</li>
+                      <li class="ch-molc-footer-list__item2">Terms of Use</li>
+                      <li class="ch-molc-footer-list__item2">Privacy Policy</li>
+                      <li class="ch-molc-footer-list__item2 d-lg-none">Site by Bureaux</li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+  </footer>
+    <!-- footer -->
     <!-- JavaScript Bundle with Popper -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"

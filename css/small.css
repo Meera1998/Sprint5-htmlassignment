@@ -14,7 +14,7 @@ body {
   overflow-x: hidden;
 }
 .ch-atom-h1 {
-  font-size: 37px;
+  font-size: 41px;
   font-weight: 800;
   line-height: 33px;
   text-align: center;
@@ -28,8 +28,8 @@ body {
   text-align: center;
   text-size-adjust: 100%;
   font-family: "EB Garamond", serif;
-  padding-left: 5px;
-  padding-right: 5px;
+  /* padding-left: 5px;
+  padding-right: 5px; */
 }
 .ch-atom-para {
   font-size: 13px;
@@ -45,6 +45,12 @@ body {
   padding-top: 5px;
   padding-bottom: 6px;
   letter-spacing: -1px;
+}
+.ch-atom-h2__center {
+  text-align: center;
+  margin-top: 100px;
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 .ch-atom-btn {
   border-radius: 100px;
@@ -93,7 +99,9 @@ body {
 .ch-font {
   font-family: "EB Garamond", serif;
 }
-
+.ch-banner__h1--mt {
+  margin-top: 80px;
+}
 .ch-banner__P {
   font-size: 14px;
   font-weight: 400;
@@ -152,8 +160,8 @@ body {
 .ch-org-support {
   background-color: rgb(248, 251, 255);
   border-radius: 40px;
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 3rem;
+  padding-bottom: 5rem;
 }
 .ch-org-support--border {
   border: 1px solid #63acfc;
@@ -162,6 +170,22 @@ body {
   margin-left: 12px;
   margin-right: 12px;
   margin-top: 50px;
+}
+.ch-atom-para--marginfrom {
+  margin-top: 15px;
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
+  text-align: center !important;
+}
+.ch-org-support--margin-we {
+  padding-top: 3rem;
+  margin-top: 30px;
+}
+.ch-easy {
+  padding-top: 10px;
+}
+.ch-dont {
+  padding-top: 10px;
 }
 .ch-molc-review {
   font-size: 12px;
@@ -215,8 +239,11 @@ body {
   padding-left: 25px;
   padding-right: 25px;
 }
-.ch-molc-card-howitworks--right {
+.ch-molc-card-howitworks--alignr {
   text-align: right;
+}
+.ch-molc-card-howitworks--alignl {
+  text-align: left;
 }
 .ch-molc-card-howitworks__h3 {
   font-size: 70px;
@@ -258,18 +285,77 @@ body {
 .ch-mail {
   max-width: 90%;
 }
-
+.ch-banner1 {
+  width: 100%;
+  padding-top: 20px;
+}
+.ch-banner2 {
+  width: 95%;
+  margin-bottom: -37px;
+  margin-top: 24px;
+}
 .ch-org-support--blue {
   background-color: rgb(99, 172, 252);
 }
-
+.form-control--size {
+  border-radius: 100px;
+  width: 270px;
+  height: 60px;
+  display: inline;
+}
+.ch-molc-banner__button {
+  border-radius: 100px;
+  font-size: 15px;
+  font-weight: 500;
+  background-color: rgb(99, 172, 252);
+  height: 60px;
+  width: 160px;
+  line-height: 18px;
+}
+.ch-molc-banner__button--white {
+  color: rgb(99, 172, 252);
+  background-color: white;
+  border-color: rgb(99, 172, 252);
+}
 .ch-birdimg {
   width: 100%;
   padding-bottom: 10px !important;
 }
 .ch-textbox {
-  border-radius: 100px;
-  height: 60px;
-  width: 270px;
-  font-size: 13px;
+  text-align: center;
+}
+/* footer */
+.ch-org-footer {
+}
+.ch-molc-footer-list {
+  padding: 0;
+  list-style-type: none;
+}
+.ch-molc-footer-list__item {
+  font-size: 12px;
+  padding: 10px;
+}
+.ch-molc-footer-list__item2 {
+  font-size: 9px;
+  padding: 5px;
+}
+/* section5 */
+.ch-icon {
+  height: 40px !important;
+  max-width: 45px !important;
+}
+.ch-molc-service-card {
+  height: 195px;
+  width: 276px;
+}
+.ch-molc-card2__para {
+  color: rgb(118, 118, 118);
+  font-size: 12px;
+  font-weight: 400px;
+  line-height: 18px;
+  padding-top: 8px;
+}
+.ch-atom-card-title {
+  font-size: 20px;
+  font-weight: 700;
 }

@@ -1,93 +1,296 @@
-@media (min-width: 550px) {
-  /* header */
-  .ch-header__logo {
-    margin-left: -5px;
-    width: 26%;
-  }
-  .ch-headertop--mb {
-    margin-bottom: -16px;
-  }
-  .ch-navbar {
-    padding-top: 5px;
-  }
-  .ch-header__btn {
-    background-color: white;
-    border-bottom-color: rgb(99, 172, 252);
-    border-top-color: rgb(99, 172, 252);
-    border-left-color: rgb(99, 172, 252);
-    border-right-color: rgb(99, 172, 252);
-    color: rgb(99, 172, 252);
-    width: 96px;
-    height: 35px;
-    font-size: 12.5px;
-    font-weight: 500;
-    letter-spacing: 0px;
-    margin-right: -10px;
-    padding: 0px;
-  }
-  /* banner */
-  .ch-banner {
-    padding-left: 30px;
-    text-align: left;
-  }
-  .ch-banner--margin {
-    margin-top: -20px;
-  }
-  .ch-banner--margin {
-    margin-right: 800px;
-  }
-  .ch-banner__h1 {
-    text-align: left;
-    padding-left: 25px;
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 55px;
-  }
-  .ch-banner__h1--mt {
-    margin-top: 80px;
-  }
-  .ch-banner__P {
-    text-align: left;
-  }
-  .ch-banner__P--margin {
-    margin-left: 25.87px;
-    margin-right: 25.87px;
-    margin-bottom: 40px;
-  }
-  .ch-banner__btn {
-    background-color: rgb(99, 172, 252);
-    color: white;
-    width: 140px;
-    height: 50px;
-    font-size: 16px;
-    font-weight: 600;
-    letter-spacing: -1px;
-    padding: 0px;
-  }
-  .ch-banner__btn--margin {
-    margin-left: 25px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    margin-top: -27px;
-  }
-  .ch-banner__a {
-    color: rgb(99, 172, 252);
-    font-size: 16px;
-    font-weight: 600;
-    /* line-height: 24px; */
-    text-decoration: none;
-    letter-spacing: -1px;
-  }
-  .ch-banner__a--mt {
-    margin-top: -50px;
-    margin-left: 32px;
-  }
-  .ch-banner__img {
-    padding-right: 4px;
-  }
-  .ch-banner__img--width {
-    width: 84%;
-    margin-top: 25px;
-    padding-right: 20px;
-  }
+@font-face {
+  font-family: robot;
+
+  font-style: normal;
+  font-weight: 100;
+  src: url(fonts\Recoleta-Bold.ttf);
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "spartan", "sans-serif";
+  overflow-x: hidden;
+}
+.ch-font {
+  font-family: "EB Garamond", serif;
+}
+.ch-atom-h1 {
+  font-size: 52px;
+  font-weight: 800;
+  line-height: 55px;
+  text-align: left;
+  text-size-adjust: 100%;
+  font-family: "EB Garamond", serif;
+  padding-left: 20px;
+}
+.ch-atom-h2 {
+  font-size: 34px;
+  font-weight: 800;
+  line-height: 41px;
+  text-align: left;
+  text-size-adjust: 100%;
+  font-family: "EB Garamond", serif;
+}
+.ch-atom-h2--empathetic {
+  padding-left: 25px;
+  padding-right: 5px;
+}
+.ch-atom-h2__center {
+  text-align: center;
+  margin-top: 100px;
+  padding-left: 245px;
+  padding-right: 245px;
+}
+.ch-atom-para {
+  font-size: 13px;
+  font-weight: 400;
+}
+.ch-atom-para--center {
+  text-align: center;
+  padding-top: 15px;
+}
+.ch-atom-para--margin {
+  margin-top: 15px;
+  padding-left: 7px !important;
+  padding-right: 7px !important;
+}
+.ch-atom-para--marginfrom {
+  margin-top: 15px;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  text-align: center !important;
+}
+.ch-atom-para-f17 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  letter-spacing: -1px;
+}
+.ch-atom-btn {
+  border-radius: 100px;
+  border-width: 1px;
+  cursor: pointer;
+}
+.ch-atom-btn--border {
+  border: 1px solid rgb(99, 172, 252);
+  font-size: 10px;
+}
+
+/* header */
+.ch-header__logo {
+  margin-left: -5px;
+  width: 26%;
+}
+.ch-headertop--mb {
+  margin-bottom: -16px;
+}
+.ch-navbar {
+  padding-top: 5px;
+}
+.ch-header__btn {
+  background-color: white;
+  border-bottom-color: rgb(99, 172, 252);
+  border-top-color: rgb(99, 172, 252);
+  border-left-color: rgb(99, 172, 252);
+  border-right-color: rgb(99, 172, 252);
+  color: rgb(99, 172, 252);
+  width: 96px;
+  height: 35px;
+  font-size: 12.5px;
+  font-weight: 500;
+  letter-spacing: 0px;
+  margin-right: -10px;
+  padding: 0px;
+}
+/* banner */
+.ch-banner {
+  padding-left: 30px;
+  text-align: left;
+}
+.ch-banner--margin {
+  margin-top: -20px;
+  margin-right: 800px;
+}
+.ch-banner--marginflex {
+  margin-top: 50px;
+  text-align: center;
+  margin-right: 800px;
+}
+
+.ch-banner__h1 {
+  text-align: left;
+  padding-left: 25px;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 55px;
+}
+.ch-banner__h1--mt {
+  margin-top: 80px;
+}
+.ch-banner__P {
+  text-align: left;
+}
+.ch-banner__P--margin {
+  margin-left: 25.87px;
+  margin-right: 25.87px;
+  margin-bottom: 40px;
+}
+.ch-banner__btn {
+  background-color: rgb(99, 172, 252);
+  color: white;
+  width: 140px;
+  height: 50px;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: -1px;
+  padding: 0px;
+}
+.ch-banner__btn--margin {
+  margin-left: 25px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-top: -27px;
+}
+.ch-banner__a {
+  color: rgb(99, 172, 252);
+  font-size: 16px;
+  font-weight: 600;
+  /* line-height: 24px; */
+  text-decoration: none;
+  letter-spacing: -1px;
+}
+.ch-banner__a--mt {
+  margin-top: -50px;
+  margin-left: 32px;
+}
+.ch-banner__img {
+  padding-right: 4px;
+}
+.ch-banner__img--width {
+  width: 84%;
+  margin-top: 25px;
+  padding-right: 20px;
+}
+/* scetion2 */
+.ch-org-support {
+  background-color: rgb(248, 251, 255);
+  border-radius: 40px;
+  padding-top: 80px 100px !important;
+}
+.ch-org-support--border {
+  border: 1px solid #63acfc;
+}
+.ch-org-support--margin {
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 50px;
+}
+.ch-org-support--margin-we {
+  margin-left: 15px;
+  margin-right: 15px;
+  padding-left: 30px;
+}
+.ch-molc-review {
+  font-size: 15px;
+  text-decoration: none;
+  font-weight: 600;
+}
+.ch-molc-review__img {
+  width: 15%;
+  padding-bottom: 8px;
+}
+.ch-molc-review__h2 {
+  font-size: 37px;
+  line-height: 46px;
+  font-weight: 800;
+  margin-top: -3px;
+  margin-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.ch-molc-card {
+  padding-left: 64px;
+  padding-right: 64px;
+}
+.ch-molc-card__img {
+  width: 50%;
+}
+.ch-molc-card__img--width1 {
+  width: 45%;
+}
+.ch-molc-card__img--width2 {
+  width: 55%;
+}
+.ch-molc-card__img--width3 {
+  width: 55%;
+}
+.ch-molc-card__text {
+  margin-top: 20px;
+  font-size: 19px;
+  font-weight: 600;
+  letter-spacing: 0px;
+}
+.ch-atomsec3img1 {
+  width: 13%;
+  position: absolute;
+  transform: translate(515%, -123%);
+}
+.ch-atomsec3img2 {
+  width: 13%;
+  position: absolute;
+  transform: translate(607%, -73%);
+}
+/* scetion2  */
+/* section3 */
+
+/* section 5 */
+.ch-flex {
+  text-align: center;
+}
+.ch-mail {
+  max-width: 100%;
+  margin-left: -30px;
+}
+.ch-easy {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 10px;
+}
+.ch-dont {
+  padding-top: 10px;
+}
+.ch-banner__btn--white {
+  background-color: white;
+  color: rgb(99, 172, 252);
+  margin: 30px 80px !important;
+  height: 60px !important;
+  width: 150px !important;
+}
+.ch-banner1 {
+  width: 95%;
+}
+.ch-banner2 {
+  width: 95%;
+  margin-bottom: -37px;
+  margin-top: 24px;
+}
+.ch-org-support--blue {
+  background-color: rgb(99, 172, 252);
+}
+
+.ch-birdimg {
+  width: 100%;
+  padding-bottom: 10px !important;
+}
+.ch-textbox {
+  border-radius: 100px;
+  text-align: center;
+  height: 60px;
+  width: 270px;
+  font-size: 13px;
+  margin-right: 0px !important;
+  margin-left: 173px !important;
 }
