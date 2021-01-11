@@ -13,7 +13,8 @@ body {
   overflow-x: hidden;
 }
 .ch-font {
-  font-family: "EB Garamond", serif;
+  /* font-family: "EB Garamond", serif; */
+  font-family: Recoleta Bold;
 }
 .ch-width {
   margin-left: 100px !important ;
@@ -29,7 +30,7 @@ body {
   padding-left: 20px;
 }
 .ch-atom-h2 {
-  font-size: 43px;
+  font-size: 45px;
   font-weight: 800;
   line-height: 41px;
   text-align: left;
@@ -50,6 +51,7 @@ body {
 .ch-atom-para {
   font-size: 16px;
   font-weight: 400;
+  font-family: "spartan", "sans-serif";
 }
 .ch-atom-para--center {
   text-align: center;
@@ -87,8 +89,8 @@ body {
 .ch-banner__btn--white {
   background-color: white !important;
   color: rgb(99, 172, 252) !important;
-  margin: 30px 80px !important;
-  height: 60px !important;
+  margin: 10px 80px !important;
+  height: 50px !important;
   width: 150px !important;
 }
 .ch-headertop--mb {
@@ -149,8 +151,13 @@ body {
   font-weight: 700;
   line-height: 55px;
 }
+.img-headphone {
+  position: absolute;
+  transform: translate(-4%, 7%);
+  width: 344px;
+}
 .ch-banner__h1--mt {
-  margin-top: 50px;
+  margin-top: 80px;
   font-family: Recoleta;
 }
 .ch-banner__P {
@@ -299,16 +306,17 @@ body {
 .ch-molc-card-howitworks__p--width {
   max-width: 200px;
   padding-left: 0px;
+  padding-right: 0px;
 }
 .ch-molc-card-howitworks__img {
   display: inline;
-  width: 22%;
+  width: 25%;
 }
 .ch-molc-card-howitworks__img--width {
-  width: 30%;
+  width: 35%;
 }
 .ch-molc-card-howitworks__img--width1 {
-  width: 40%;
+  width: 42%;
 }
 .ch-org-howitworks {
   padding-left: 100px !important;
@@ -319,11 +327,11 @@ body {
   margin-bottom: 20px;
 }
 .ch-trophy {
-  height: 400px;
+  height: 350px;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 0px;
-  margin-top: -100px;
+  margin-top: -80px;
 }
 .ch-mail {
   width: 100%;
@@ -331,12 +339,12 @@ body {
   margin-left: -100px;
 }
 .ch-banner1 {
-  width: 90%;
+  width: 95%;
   padding-left: 30px;
 }
 .ch-birdimg {
   width: 100%;
-  padding-bottom: -100px !important;
+  margin-bottom: -30px !important;
 }
 .ch-banner2 {
   width: 95%;
@@ -349,6 +357,7 @@ body {
 .ch-section6 {
   padding-left: 50px;
   padding-top: 50px;
+  padding-bottom: 60px;
 }
 .ch-section7 {
   padding-left: 50px;
@@ -356,6 +365,10 @@ body {
 }
 .ch-section7--pb {
   padding-bottom: 100px !important;
+}
+.ch-section7--p {
+  padding-bottom: 100px !important;
+  padding-top: 100px !important;
 }
 .ch-textbox {
   text-align: left;
@@ -365,10 +378,17 @@ body {
   width: 150px !important;
 }
 .ch-section-container {
-  padding-left: 155px;
-  padding-right: 155px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 .ch-molc-service-card {
   height: 195px;
   width: 200px;
+}
+.ch-molc-footer-list__item2 {
+  font-size: 12px;
+  padding: 5px;
+}
+.ch-footer-icon {
+  width: 90%;
 }
