@@ -340,7 +340,7 @@ body {
 }
 .ch-birdimg {
   width: 100%;
-  margin-bottom: -10px !important;
+  margin-bottom: 0px !important;
 }
 .ch-textbox {
   border-radius: 100px;
@@ -353,4 +353,23 @@ body {
 }
 .ch-footer-align {
   padding-left: 230px;
+}
+.ch-molc-footer-list__item2--mr {
+  margin-right: 7rem;
+}
+.ch-howitworks__arrow {
+  position: relative;
+  top: -160px;
+  right: -13px;
+  width: 110px;
+  margin-left: 200px;
+  transform: rotate(52deg);
+}
+.ch-howitworks__arrow2 {
+  position: relative;
+  top: -172px;
+  right: 190px;
+  width: 120px;
+  margin-left: 200px;
+  transform: rotate(148deg);
 }
